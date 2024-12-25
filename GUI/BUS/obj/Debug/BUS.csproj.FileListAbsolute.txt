@@ -1,0 +1,15 @@
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\BUS\bin\Debug\BUS.dll.config
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\BUS\bin\Debug\BUS.dll
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\BUS\bin\Debug\BUS.pdb
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\BUS\bin\Debug\DAL.dll
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\BUS\bin\Debug\EntityFramework.dll
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\BUS\bin\Debug\EntityFramework.SqlServer.dll
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\BUS\bin\Debug\DAL.pdb
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\BUS\bin\Debug\DAL.dll.config
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\BUS\bin\Debug\EntityFramework.xml
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\BUS\bin\Debug\EntityFramework.SqlServer.xml
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\BUS\obj\Debug\BUS.csproj.Up2Date
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\BUS\obj\Debug\BUS.dll
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\BUS\obj\Debug\BUS.pdb

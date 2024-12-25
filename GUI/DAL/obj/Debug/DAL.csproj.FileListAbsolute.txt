@@ -1,0 +1,12 @@
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\DAL\bin\Debug\DAL.dll.config
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\DAL\bin\Debug\DAL.dll
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\DAL\bin\Debug\DAL.pdb
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\DAL\bin\Debug\EntityFramework.dll
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\DAL\bin\Debug\EntityFramework.xml
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\DAL\obj\Debug\DAL.dll
+D:\Công Nghệ Thông Tin\LT Trên MT Windows\Buoi6\GUI\DAL\obj\Debug\DAL.pdb

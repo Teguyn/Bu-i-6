@@ -1,0 +1,226 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53AA402F-D0FB-48C1-96E7-D11416126D14}|BUS\\BUS.csproj|D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\bus\\facultyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53AA402F-D0FB-48C1-96E7-D11416126D14}|BUS\\BUS.csproj|solutionrelative:bus\\facultyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53AA402F-D0FB-48C1-96E7-D11416126D14}|BUS\\BUS.csproj|D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\bus\\majorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53AA402F-D0FB-48C1-96E7-D11416126D14}|BUS\\BUS.csproj|solutionrelative:bus\\majorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53AA402F-D0FB-48C1-96E7-D11416126D14}|BUS\\BUS.csproj|D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\bus\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53AA402F-D0FB-48C1-96E7-D11416126D14}|BUS\\BUS.csproj|solutionrelative:bus\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03EAD0B5-4589-4C23-B1D9-9CF7A54CB1BB}|GUI\\GUI.csproj|d:\\c\u00F4ng ngh\u1EC7 th\u00F4ng tin\\lt tr\u00EAn mt windows\\buoi6\\gui\\gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03EAD0B5-4589-4C23-B1D9-9CF7A54CB1BB}|GUI\\GUI.csproj|solutionrelative:gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03EAD0B5-4589-4C23-B1D9-9CF7A54CB1BB}|GUI\\GUI.csproj|D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03EAD0B5-4589-4C23-B1D9-9CF7A54CB1BB}|GUI\\GUI.csproj|solutionrelative:gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53AA402F-D0FB-48C1-96E7-D11416126D14}|BUS\\BUS.csproj|d:\\c\u00F4ng ngh\u1EC7 th\u00F4ng tin\\lt tr\u00EAn mt windows\\buoi6\\gui\\bus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{53AA402F-D0FB-48C1-96E7-D11416126D14}|BUS\\BUS.csproj|solutionrelative:bus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCF98C1-8221-463D-B251-398CFB1D959D}|DAL\\DAL.csproj|d:\\c\u00F4ng ngh\u1EC7 th\u00F4ng tin\\lt tr\u00EAn mt windows\\buoi6\\gui\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCF98C1-8221-463D-B251-398CFB1D959D}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03EAD0B5-4589-4C23-B1D9-9CF7A54CB1BB}|GUI\\GUI.csproj|D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\gui\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03EAD0B5-4589-4C23-B1D9-9CF7A54CB1BB}|GUI\\GUI.csproj|solutionrelative:gui\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03EAD0B5-4589-4C23-B1D9-9CF7A54CB1BB}|GUI\\GUI.csproj|D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\gui\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03EAD0B5-4589-4C23-B1D9-9CF7A54CB1BB}|GUI\\GUI.csproj|solutionrelative:gui\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCF98C1-8221-463D-B251-398CFB1D959D}|DAL\\DAL.csproj|D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\dal\\entities\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCF98C1-8221-463D-B251-398CFB1D959D}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCF98C1-8221-463D-B251-398CFB1D959D}|DAL\\DAL.csproj|D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\dal\\entities\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCF98C1-8221-463D-B251-398CFB1D959D}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCF98C1-8221-463D-B251-398CFB1D959D}|DAL\\DAL.csproj|D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\dal\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCF98C1-8221-463D-B251-398CFB1D959D}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\GUI\\Form1.cs",
+              "RelativeDocumentMoniker": "GUI\\Form1.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\GUI\\Form1.cs [Design]",
+              "RelativeToolTip": "GUI\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T03:07:33.407Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\GUI\\Form1.cs",
+              "RelativeDocumentMoniker": "GUI\\Form1.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\GUI\\Form1.cs",
+              "RelativeToolTip": "GUI\\Form1.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAASwDEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T16:41:23.546Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\GUI\\Form2.cs",
+              "RelativeDocumentMoniker": "GUI\\Form2.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\GUI\\Form2.cs",
+              "RelativeToolTip": "GUI\\Form2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:46:40.916Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\BUS\\App.config",
+              "RelativeDocumentMoniker": "BUS\\App.config",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\BUS\\App.config",
+              "RelativeToolTip": "BUS\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-25T07:05:12.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "DAL\\Class1.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\DAL\\Class1.cs",
+              "RelativeToolTip": "DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T07:04:56.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\GUI\\Form2.cs",
+              "RelativeDocumentMoniker": "GUI\\Form2.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\GUI\\Form2.cs [Design]",
+              "RelativeToolTip": "GUI\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:45:20.837Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Faculty.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\DAL\\Entities\\Faculty.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Faculty.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\DAL\\Entities\\Faculty.cs",
+              "RelativeToolTip": "DAL\\Entities\\Faculty.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwB4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T21:28:05.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\DAL\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Student.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\DAL\\Entities\\Student.cs",
+              "RelativeToolTip": "DAL\\Entities\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T08:39:00.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\BUS\\StudentService.cs",
+              "RelativeDocumentMoniker": "BUS\\StudentService.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\BUS\\StudentService.cs",
+              "RelativeToolTip": "BUS\\StudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T03:13:18.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MajorService.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\BUS\\MajorService.cs",
+              "RelativeDocumentMoniker": "BUS\\MajorService.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\BUS\\MajorService.cs",
+              "RelativeToolTip": "BUS\\MajorService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:40:26.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FacultyService.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\BUS\\FacultyService.cs",
+              "RelativeDocumentMoniker": "BUS\\FacultyService.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\BUS\\FacultyService.cs",
+              "RelativeToolTip": "BUS\\FacultyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T15:39:36.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Model1.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\DAL\\Entities\\Model1.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Model1.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\LT Tr\u00EAn MT Windows\\Buoi6\\GUI\\DAL\\Entities\\Model1.cs",
+              "RelativeToolTip": "DAL\\Entities\\Model1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:47:11.785Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

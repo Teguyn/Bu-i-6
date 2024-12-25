@@ -29,19 +29,13 @@ namespace GUI
         }
 
         private void dgvStudent_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        { // Kiểm tra xem người dùng có nhấn vào một dòng hợp lệ không (không nhấn vào tiêu đề)
+        { 
+            // Kiểm tra xem người dùng có nhấn vào một dòng hợp lệ không (không nhấn vào tiêu đề)
             if (e.RowIndex >= 0)
             {
-                // Lấy thông tin của dòng đã chọn
-                DataGridViewRow row = dgvStudent.Rows[e.RowIndex];
+                var row = dgvStudent.Rows[e.RowIndex];
 
-                // Hiển thị thông tin sinh viên lên các TextBox và ComboBox để sửa trực tiếp
-                txtMaSV.Text = row.Cells[0].Value.ToString();  // Mã sinh viên
-                txtTen.Text = row.Cells[1].Value.ToString();   // Họ tên
-                cmbFaculty.SelectedValue = row.Cells[2].Value; // Khoa
-                txtDiemTB.Text = row.Cells[3].Value.ToString(); // Điểm trung bình
-
-                // Lấy mã sinh viên từ dòng được chọn
+                // Lấy mã sinh viên từ dòng và tìm sinh viên trong cơ sở dữ liệu
                 string studentID = row.Cells[0].Value.ToString();
 
                 // Lấy thông tin sinh viên từ cơ sở dữ liệu dựa trên mã sinh viên
@@ -61,6 +55,12 @@ namespace GUI
 
                 // Kích hoạt TextBox để người dùng có thể sửa trực tiếp
                 txtMaSV.ReadOnly = false; // Không cho phép sửa mã sinh viên
+
+                // Gán giá trị cho cmbChuyenNghanh (nếu có)
+                if (row.Cells[4].Value != null)
+                {
+                    cmbFaculty.SelectedValue = row.Cells[4].Value.ToString();
+                }
             }
         }
 
@@ -205,31 +205,35 @@ namespace GUI
         {
             try
             {
-                if (dgvStudent.SelectedRows.Count > 0)
+                // Lấy mã sinh viên từ TextBox
+                string studentID = txtMaSV.Text;
+
+                // Tìm sinh viên theo mã sinh viên
+                var student = studentService.FindById(studentID);
+
+                if (student != null)
                 {
-                    string studentID = txtMaSV.Text; // Lấy mã sinh viên từ TextBox
+                    // Cập nhật thông tin sinh viên
+                    student.FullName = txtTen.Text;  // Cập nhật họ tên
+                    student.FacultyID = Convert.ToInt32(cmbFaculty.SelectedValue); // Cập nhật khoa
 
-                    var student = studentService.FindById(studentID);
-                    if (student != null)
-                    {
-                        student.FullName = txtTen.Text;  // Cập nhật họ tên
-                        student.FacultyID = Convert.ToInt32(cmbFaculty.SelectedValue); // Cập nhật khoa
-                        student.AverageScore = Convert.ToDouble(txtDiemTB.Text);  // Cập nhật điểm trung bình
+                    // Xóa giá trị của MajorID
+                    student.MajorID = null;
 
-                        studentService.InsertUpdate(student);  // Lưu thay đổi vào database
-                        var listStudents = studentService.GetAll(); // Cập nhật lại danh sách sinh viên
-                        BindGrid(listStudents); // Hiển thị lại DataGridView
+                    student.AverageScore = Convert.ToDouble(txtDiemTB.Text);  // Cập nhật điểm trung bình
 
-                        MessageBox.Show("Cập nhật sinh viên thành công!");
-                    }
-                    else
-                    {
-                        MessageBox.Show("Không tìm thấy sinh viên.");
-                    }
+                    // Lưu thay đổi vào database
+                    studentService.InsertUpdate(student);
+
+                    // Cập nhật lại danh sách sinh viên
+                    var listStudents = studentService.GetAll();
+                    BindGrid(listStudents);
+
+                    MessageBox.Show("Cập nhật sinh viên thành công!");
                 }
                 else
                 {
-                    MessageBox.Show("Vui lòng chọn sinh viên để sửa.");
+                    MessageBox.Show("Không tìm thấy sinh viên.");
                 }
             }
             catch (Exception ex)
@@ -253,8 +257,13 @@ namespace GUI
         {
          
             Form2 form2 = new Form2();
-            form2.ShowDialog();
-           
+            if (form2.ShowDialog() == DialogResult.OK)
+            {
+                // Cập nhật dữ liệu trên Form 1
+                var listStudents = studentService.GetAll();
+                BindGrid(listStudents);
+            }
+
         }
 
         private void picAvatar_Click(object sender, EventArgs e)
@@ -266,6 +275,7 @@ namespace GUI
         {
             try
             {
+                // Kiểm tra xem thông tin sinh viên đã được nhập đầy đủ chưa
                 if (string.IsNullOrEmpty(txtMaSV.Text) ||
                     string.IsNullOrEmpty(txtTen.Text) ||
                     string.IsNullOrEmpty(txtDiemTB.Text) ||
@@ -274,6 +284,8 @@ namespace GUI
                     MessageBox.Show("Vui lòng nhập đầy đủ thông tin sinh viên.");
                     return;
                 }
+
+                // Tạo mới sinh viên
                 var student = new Student()
                 {
                     StudentID = txtMaSV.Text,
@@ -282,9 +294,19 @@ namespace GUI
                     AverageScore = Convert.ToDouble(txtDiemTB.Text)
                 };
 
+                // Cập nhật chuyên ngành (nếu có)
+                if (cmbFaculty.SelectedValue != null)
+                {
+                    student.MajorID = Convert.ToInt32(cmbFaculty.SelectedValue);
+                }
+
+                // Thêm sinh viên vào database
                 studentService.Add(student);
+
+                // Cập nhật lại danh sách sinh viên
                 var listStudents = studentService.GetAll();
                 BindGrid(listStudents);
+
                 MessageBox.Show("Thêm sinh viên thành công!");
             }
             catch (Exception ex)
@@ -360,6 +382,13 @@ namespace GUI
             studentService.UpdateStudentAvatar(studentID, imageName);
 
             MessageBox.Show("Ảnh đã được lưu thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        internal void RefreshData()
+        {
+            // Cập nhật dữ liệu trên Form 1
+            var listStudents = studentService.GetAll();
+            BindGrid(listStudents);
         }
     }
         
